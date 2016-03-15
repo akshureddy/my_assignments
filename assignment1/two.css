@@ -1,0 +1,58 @@
+p{
+	color: #ded;
+	font-weight: bold;
+}
+img{
+	float: right;
+    margin: 10px 10px 10px 10px;
+}
+
+p::first-line { 
+    background-color: #ccc;
+}
+h2::before { 
+    content: "(Start)";
+    color: red;
+    font-style: italic;
+}
+h2::after {
+    content: "(End)";
+    color: red;
+    font-style: italic;
+}
+#pic{
+	float: left;
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.scroll{
+	background-color: #0f0;
+    width: 200px;
+    height: 90px;
+    overflow: scroll;
+}
+.hidden{
+	visibility: hidden;
+}
+.box{
+	background-color: yellow;
+    width: 200px;
+    padding: 20px;
+    border: 20px solid blue;
+    margin: 20px;
+}
+p::first-letter {
+    font-size: 250%;
+    color: red;
+}
+.pseudo{
+	background-color: green;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.pseudo:hover {
+    background-color: #c2c;
+}
