@@ -56,3 +56,6 @@ p::first-letter {
 .pseudo:hover {
     background-color: #c2c;
 }
+.danger{
+    color:red;
+}
